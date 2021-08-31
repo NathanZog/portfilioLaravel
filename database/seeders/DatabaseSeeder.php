@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
             SkillSeeder::class,
             PortfolioSeeder::class,
             ContactSeeder::class,
+            AboutSeeder::class,
+            ServiceSeeder::class,
         ]);
     }
 }

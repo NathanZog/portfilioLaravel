@@ -26,7 +26,7 @@ class CreateAboutsTable extends Migration
             $table->string('degree',40);
             $table->string('email');
             $table->string('status',30);
-            $table->string('description3');
+            $table->text('description3');
             $table->timestamps();
             
         });

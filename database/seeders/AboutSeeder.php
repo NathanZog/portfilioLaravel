@@ -23,9 +23,9 @@ class AboutSeeder extends Seeder
             'siteweb' => 'www.example.com',
             'phone' => '+123 456 7890',
             'city' => 'City : New York, USA',
-            'age' => '30',
+            'age' => 30,
             'degree' => 'Master',
-            'phone' => 'email@example.com',
+            'email' => 'email@example.com',
             'status' => 'Available',
             'description3' => 'Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.'
