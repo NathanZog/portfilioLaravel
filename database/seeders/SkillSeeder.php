@@ -15,19 +15,19 @@ class SkillSeeder extends Seeder
     public function run()
     {
         DB::table('skills')-> insert([
-            'description' => '',
+            'description' => 'Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.',
             'skill1' => 'HTML',
-            '%skill1' => 100,
+            'pctskill1' => 100,
             'skill2' => 'CSS',
-            '%skill2' => 90,
+            'pctskill2' => 90,
             'skill3' => 'JavaScript',
-            '%skill3' => 75,
+            'pctskill3' => 75,
             'skill4' => 'PHP',
-            '%skill4' => 80,
+            'pctskill4' => 80,
             'skill5' => 'WordPress/CMS',
-            '%skill5' => 90,
+            'pctskill5' => 90,
             'skill6' => 'Photoshop',
-            '%skill6' => 55,
+            'pctskill6' => 55,
         ]);
     }
 }

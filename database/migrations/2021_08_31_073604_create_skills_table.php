@@ -17,17 +17,17 @@ class CreateSkillsTable extends Migration
             $table->id();
             $table->string('description');
             $table->string('skill1');
-            $table->integer('%skill1');
+            $table->integer('pctskill1');
             $table->string('skill2');
-            $table->integer('%skill2');
+            $table->integer('pctskill2');
             $table->string('skill3');
-            $table->integer('%skill3');
+            $table->integer('pctskill3');
             $table->string('skill4');
-            $table->integer('%skill4');
+            $table->integer('pctskill4');
             $table->string('skill5');
-            $table->integer('%skill5');
+            $table->integer('pctskill5');
             $table->string('skill6');
-            $table->integer('%skill6');
+            $table->integer('pctskill6');
             $table->timestamps();
         });
     }

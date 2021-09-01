@@ -1,44 +1,44 @@
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
             <div class="container">
-
+@foreach($service as $data)
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>{{$data->description}}</p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                         <div class="icon"><i class="icofont-computer"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">{{$data->subtitle1}}</a></h4>
+                        <p class="description">{{$data->sub1description}}</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">{{$data->subtitle2}}</a></h4>
+                        <p class="description">{{$data->sub2description}}</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="icofont-earth"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="">{{$data->subtitle3}}</a></h4>
+                        <p class="description">{{$data->sub3description}}</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="icofont-image"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <h4 class="title"><a href="">{{$data->subtitle4}}</a></h4>
+                        <p class="description">{{$data->sub4description}}</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="icofont-settings"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        <h4 class="title"><a href="">{{$data->subtitle5}}</a></h4>
+                        <p class="description">{{$data->sub5description}}</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                        <h4 class="title"><a href="">{{$data->subtitle6}}</a></h4>
+                        <p class="description">{{$data->sub6description}}</p>
                     </div>
                 </div>
-
+@endforeach
             </div>
         </section><!-- End Services Section -->

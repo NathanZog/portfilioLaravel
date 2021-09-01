@@ -21,7 +21,7 @@
                     <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
                     <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
                     <br>
-                    <li><a href="/backoffice"><i class="bx bx-briefcase"></i> <span>BackOffice</span></a></li>
+                    <li><a href="/boHome"><i class="bx bx-briefcase"></i> <span>BackOffice</span></a></li>
                 </ul>
             </nav><!-- .nav-menu -->
             <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
