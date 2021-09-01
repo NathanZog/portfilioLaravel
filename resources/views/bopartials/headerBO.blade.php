@@ -21,7 +21,7 @@
                     <li><a href="/boSkills"><i class="bx bx-align-left"></i> <span>Skills</span></a></li>
                     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
                     <li><a href="/boServices"><i class="bx bx-server"></i> Services</a></li>
-                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+                    <li><a href="/boContact"><i class="bx bx-envelope"></i> Contact</a></li>
                     <br>
                     <li><a href="/"><i class="bx bx-arrow-back"></i> <span>Front</span></a></li>
                 </ul>

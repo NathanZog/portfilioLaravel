@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BackOfficeController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FactsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HomeSectionController;
@@ -38,6 +39,9 @@ Route::put('/updateSkills/{id}', [SkillsController::class, "update"])->name('upd
 
 Route::get('/boServices', [ServicesController::class, "index"]);
 Route::put('/updateService/{id}', [ServicesController::class, "update"])->name('updateService');
+
+Route::get('/boContact', [ContactController::class, "index"]);
+Route::put('/updateContact/{id}', [ContactController::class, "update"])->name('updateContact');
 
 
 

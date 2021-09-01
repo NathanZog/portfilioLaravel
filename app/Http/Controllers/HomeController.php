@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\About;
+use App\Models\Contact;
 use App\Models\Fact;
 use App\Models\Home;
 use App\Models\Service;
@@ -17,6 +18,7 @@ class HomeController extends Controller
         $fact = Fact::all();
         $skill= Skill::all();
         $service = Service::all();
-        return view('pages/welcome', compact('home','about','fact','skill','service'));
+        $contact = Contact::all();
+        return view('pages/welcome', compact('home','about','fact','skill','service', 'contact'));
     }
 }
